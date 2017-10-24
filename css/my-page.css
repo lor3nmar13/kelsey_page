@@ -1,0 +1,143 @@
+
+.red {
+    border: 1px solid red;
+}
+
+.blue {
+    border: 1px solid blue;
+}
+
+.orange {
+    border: 1px solid orange;
+}
+
+
+#background {
+    border: 3px solid green;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: #bdcebe;
+}
+
+header {
+    background-color:#d6cbd3;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    border: 10px solid black;
+}
+
+footer {
+    font-size: 28px;
+    color: darkolivegreen;
+    text-align: center;
+    margin:50px;
+    border: solid 3px black;
+}
+
+img[src="../images/pinecone.jpeg"] {
+    position: relative;
+    right: 0;
+    width: 200px;
+    border: 5px solid black;
+}
+
+
+
+
+#quote {
+    font-size: 36px;
+    line-height:36px;
+    color: brown;
+    text-align: center;
+    padding:40px;
+    font-family: 'Courgette', cursive;
+}
+
+#info {
+    text-align: left;
+    font-size: 32px;
+    border:solid black 5px;
+    width: 600px;
+    display:inline-block;
+    margin: 5px;
+    height: 400px;
+    float: left;
+}
+
+#background #pics {
+    float: right;
+    text-align: right;  
+    margin: 20px;
+    padding:10px;
+
+
+}
+#snow2 {
+    background-image: url( ../images/snow3.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 225px;
+    width: 250px;
+    margin: 10px;
+    
+}
+
+#baby2 {
+    background-image: url( ../images/baby2.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 225px;
+    width: 200px;
+    margin: 10px;
+}
+
+#goals {
+    color: #b9936c;
+    border: solid 3px #618685;
+    background-color: #e6e2d3;
+    text-align: center;
+    font-size: 36px;
+    height:200px;
+    margin: 10px;
+    font-family: 'Caveat', cursive;
+}
+
+#blog {
+    font-size: 28px;
+    line-height: 30px;
+    color:#50394c;
+    text-align: center;
+    border: solid darkcyan 5px;
+    background:#92a8d1;
+    height:500px;
+    margin: 10px;
+}
+
+#images {
+    display:flexx;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#images img {
+    width: 19.5%;
+}
+
+#contact {
+    color:darkolivegreen;
+    font-size:28px;
+    text-align: center;
+}
+
+#contact ul {
+    padding: 0px;
+}
+
+#contact ul li {
+    display: inline-block;
+    width: 23%;
+}

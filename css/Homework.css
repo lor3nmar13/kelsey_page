@@ -1,0 +1,81 @@
+body {
+    background:lightblue;
+    background-color: #0000ff;
+    /* background-image: url( 'http://lorempixel.com/500/500/' ); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#first {
+    border: 3px dashed red;
+    margin: 10px;
+    height: 500px;
+    background-color: rgba( 255, 255, 255, 0.8 );
+    display: none;
+}
+#second {
+    border: 3px solid red;
+    margin: 10px;
+    clear: both;
+
+
+#second img {
+    float: left;
+}
+
+#third {
+    border: 3px solid red;
+    margin: 10px;
+    height: 100px;
+}
+
+#test {
+    border: 1px solid red;
+    padding: 20px;
+    display: none;
+}
+
+#test div {
+    border: 1px solid blue;
+    margin: 20px;
+    display: inline-block;
+}
+
+#test div#two {
+    background-color: yellow;
+    height: 100px;
+}
+
+.box {
+    border: 5px dotted yellow;
+    height: 500px;
+    position: relative;
+}
+
+.box div {
+    background-color: pink;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+}
+
+.box div:first-child {
+    background-color: violet;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+}
+
+#xx {
+    background-color: green;
+    width: 300px;
+    /* margin: 0px auto; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}

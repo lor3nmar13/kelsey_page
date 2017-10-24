@@ -1,0 +1,16 @@
+#logo {
+    background: grey;
+    padding: 10px;
+    text-align: left;
+    color: red;
+    width: 700px;
+    margin: auto;
+}
+header {
+    background: black;
+}
+a {
+    color: black;
+    text-align: right;
+    font-size: 12px;
+}
